@@ -1,0 +1,23 @@
+#mapping-select-row,
+#mapping-save-row{
+    display:flex;
+}
+#mapping-mappings{
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#mapping-load{
+    flex-grow: 1;
+}
+#mapping-delete{
+    flex-grow: 1;
+}
+#mapping-name{
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#mapping-save{
+    flex-grow: 1;
+}
