@@ -1,6 +1,10 @@
 <?php
 namespace calisia_save_product_import_mapping;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 class mapping_ajax{
     public static function crud(){
         switch($_POST['crud']){

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calisia-save-product-import-mapping\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 13:31+0000\n"
+"POT-Creation-Date: 2021-07-01 09:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,12 +16,20 @@ msgstr ""
 "X-Loco-Version: 2.5.3; wp-5.7.2\n"
 "X-Domain: calisia-save-product-import-mapping"
 
+#: templates/mapper/form.php:16
+msgid "Are you sure you want to delete that mapping??"
+msgstr ""
+
 #. Name of the plugin
 msgid "calisia-save-product-import-mapping"
 msgstr ""
 
 #: templates/mapper/form.php:15
 msgid "delete"
+msgstr ""
+
+#: templates/mapper/form.php:15
+msgid "Delete currently selected mapping."
 msgstr ""
 
 #: src/mapping_ajax.php:46
@@ -36,11 +44,19 @@ msgstr ""
 msgid "Error while saving data."
 msgstr ""
 
+#: templates/mapper/form.php:19
+msgid "Insert name of a new mapping then click save to save current mapping."
+msgstr ""
+
 #: templates/mapper/form.php:14
 msgid "load"
 msgstr ""
 
-#: templates/mapper/form.php:18
+#: templates/mapper/form.php:14
+msgid "Load currently selected mapping."
+msgstr ""
+
+#: templates/mapper/form.php:19
 msgid "New Mapping Name"
 msgstr ""
 
@@ -52,8 +68,18 @@ msgstr ""
 msgid "Pick Saved Mapping"
 msgstr ""
 
-#: templates/mapper/form.php:19
+#: templates/mapper/form.php:20
 msgid "save"
+msgstr ""
+
+#: templates/mapper/form.php:20
+msgid "Save current mapping with provided name."
+msgstr ""
+
+#: templates/mapper/form.php:6
+msgid ""
+"Select mapping from previously saved list then click load to load the "
+"mapping or delete to delete it."
 msgstr ""
 
 #. Author of the plugin

@@ -1,6 +1,10 @@
 <?php
 namespace calisia_save_product_import_mapping\utils;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 class translations{
     /**
      * Load plugin textdomain.

@@ -6,6 +6,9 @@
  * Domain Path: /languages
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
 
 define('CALISIA_SAVE_PRODUCT_IMPORT_MAPPING_ROOT', __DIR__);
 define('CALISIA_SAVE_PRODUCT_IMPORT_MAPPING_URL', plugin_dir_url( __FILE__ ));

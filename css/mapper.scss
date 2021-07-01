@@ -1,6 +1,8 @@
 #mapping-select-row,
 #mapping-save-row{
     display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #mapping-mappings{
     width: 50%;
@@ -20,4 +22,20 @@
 }
 #mapping-save{
     flex-grow: 1;
+}
+.button-tomato{
+    background-color: tomato !important;
+    border-color: #de4328 !important;
+    box-shadow: inset 0 1px 0 #ff9a9a, 0 1px 0 #de4328 !important;
+    text-shadow: 0 -1px 1px #de4328, 1px 0 1px #de4328, 0 1px 1px #de4328, -1px 0 1px #de4328 !important;
+}
+.button-tomato:hover{
+    background-color: #de4328 !important;
+}
+.cspim_error{
+    background: #ffc7c7;
+    padding: 10px;
+    border: solid #720000 1px;
+    border-radius: 4px;
+    color: #720000;
 }

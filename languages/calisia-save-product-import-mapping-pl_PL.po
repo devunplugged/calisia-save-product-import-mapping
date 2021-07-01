@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calisia-save-product-import-mapping\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 13:31+0000\n"
-"PO-Revision-Date: 2021-06-30 13:34+0000\n"
+"POT-Creation-Date: 2021-07-01 09:38+0000\n"
+"PO-Revision-Date: 2021-07-01 09:43+0000\n"
 "Last-Translator: \n"
 "Language-Team: Polski\n"
 "Language: pl_PL\n"
@@ -16,6 +16,10 @@ msgstr ""
 "X-Loco-Version: 2.5.3; wp-5.7.2\n"
 "X-Domain: calisia-save-product-import-mapping"
 
+#: templates/mapper/form.php:16
+msgid "Are you sure you want to delete that mapping??"
+msgstr "Czy jesteś pewny/a, że chcesz usunąć to mapowanie?"
+
 #. Name of the plugin
 msgid "calisia-save-product-import-mapping"
 msgstr "calisia-save-product-import-mapping"
@@ -24,37 +28,63 @@ msgstr "calisia-save-product-import-mapping"
 msgid "delete"
 msgstr "Usuń"
 
+#: templates/mapper/form.php:15
+msgid "Delete currently selected mapping."
+msgstr "Usuń aktualnie wybrane mapowanie."
+
 #: src/mapping_ajax.php:46
 msgid "Error reading data."
-msgstr "Błąd podczas odczytu danych."
+msgstr "Błąd przy odczycie danych."
 
 #: src/mapping_ajax.php:57
 msgid "Error while deleting data."
-msgstr "Błąd podczas usuwania danych."
+msgstr "Błąd przy usuwaniu danych."
 
 #: src/mapping_ajax.php:30
 msgid "Error while saving data."
-msgstr "Błąd podczas zapisywania danych."
+msgstr "Błąd przy zapisywaniu danych."
+
+#: templates/mapper/form.php:19
+msgid "Insert name of a new mapping then click save to save current mapping."
+msgstr ""
+"Podaj nazwę nowego mapowania i wciśnij zapisz, aby zapisać aktualne "
+"mapowanie."
 
 #: templates/mapper/form.php:14
 msgid "load"
 msgstr "Ładuj"
 
-#: templates/mapper/form.php:18
+#: templates/mapper/form.php:14
+msgid "Load currently selected mapping."
+msgstr "Ładuj aktualnie wybrane mapowanie."
+
+#: templates/mapper/form.php:19
 msgid "New Mapping Name"
 msgstr "Nazwa Nowego Mapowania"
 
 #: src/mapping_ajax.php:79
 msgid "Not enough data or data corrupted"
-msgstr "Nie wystarczająca ilość danych bądź dane uszkodzone."
+msgstr "Nie wystarczająca ilość danych, lub dane uszkodzone."
 
 #: templates/mapper/form.php:7
 msgid "Pick Saved Mapping"
 msgstr "Wybierz Zapisane Mapowanie"
 
-#: templates/mapper/form.php:19
+#: templates/mapper/form.php:20
 msgid "save"
 msgstr "Zapisz"
+
+#: templates/mapper/form.php:20
+msgid "Save current mapping with provided name."
+msgstr "Zapisz aktualne mapowanie z podana nazwą."
+
+#: templates/mapper/form.php:6
+msgid ""
+"Select mapping from previously saved list then click load to load the "
+"mapping or delete to delete it."
+msgstr ""
+"Wybierz mapowanie z listy wcześniej zapisanych mapowań. Następnie wciśnij "
+"ładuj, aby załadować mapowanie, lub usuń aby je usunąć."
 
 #. Author of the plugin
 msgid "Tomasz Boroń"
@@ -62,4 +92,4 @@ msgstr "Tomasz Boroń"
 
 #: src/mapping_ajax.php:73
 msgid "You do not have permissions to do that."
-msgstr "Nie masz wystarczających uprawnień do tej akcji."
+msgstr "Nie masz uprawnień do tego działania."

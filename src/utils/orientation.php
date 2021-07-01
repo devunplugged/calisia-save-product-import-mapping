@@ -1,6 +1,10 @@
 <?php
 namespace calisia_save_product_import_mapping\utils;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 class orientation{
     public static function is_product_import_mapping(){
         if(

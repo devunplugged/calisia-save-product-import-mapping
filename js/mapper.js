@@ -82,6 +82,9 @@ class cspim_buttons{
             delete_button.addEventListener(
                 'click', 
                 ()=>{
+                    if (!confirm(jQuery("#prompt-msg").val())) {
+                        return;
+                    }
                     let ui = new cspim_ui();
                     ui.off();
                     ui.hide_errors();

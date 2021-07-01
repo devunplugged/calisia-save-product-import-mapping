@@ -1,7 +1,9 @@
 <?php
 namespace calisia_save_product_import_mapping;
 
-
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
 
 
 class mapper{
