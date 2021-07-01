@@ -13,7 +13,7 @@
         </select>
         <button type="button" id="mapping-load" class="button button-primary" title="<?php _e('Load currently selected mapping.','calisia-save-product-import-mapping');?>"><?php _e('load','calisia-save-product-import-mapping');?></button>
         <button type="button" id="mapping-delete" class="button button-primary button-tomato" title="<?php _e('Delete currently selected mapping.','calisia-save-product-import-mapping');?>"><?php _e('delete','calisia-save-product-import-mapping');?></button>
-        <input type="hidden" id="prompt-msg" value="<?php _e('Are you sure you want to delete that mapping??','calisia-save-product-import-mapping'); ?>">
+ 
     </div>
     <div id="mapping-save-row">
         <input type="text" id="mapping-name" placeholder="<?php _e('New Mapping Name','calisia-save-product-import-mapping');?>" title="<?php _e('Insert name of a new mapping then click save to save current mapping.','calisia-save-product-import-mapping');?>">

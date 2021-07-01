@@ -21,6 +21,8 @@ class loader{
             return;
 
         wp_enqueue_script('calisia-save-product-import-mapping-js', CALISIA_SAVE_PRODUCT_IMPORT_MAPPING_URL . 'js/mapper.js');
-
+        wp_localize_script( 'calisia-save-product-import-mapping-js', 'objectL10n', array(
+            'delete_prompt_msg'  => __('Are you sure you want to delete that mapping??','calisia-save-product-import-mapping')
+        ) );
     }
 }
