@@ -72,7 +72,7 @@ class mapping_ajax{
     }
 
     public static function has_permission(){
-        if( current_user_can('manage_options') )
+        if( current_user_can('publish_products') )
             return;
         self::error(__('You do not have permissions to do that.','calisia-save-product-import-mapping'));
     }
