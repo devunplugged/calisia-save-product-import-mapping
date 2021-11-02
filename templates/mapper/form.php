@@ -1,4 +1,4 @@
-<div>
+<div id="calisia-import-mapper">
     <div>
         <div id="mapping-notifications"></div>
     </div>

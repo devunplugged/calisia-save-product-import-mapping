@@ -21,7 +21,8 @@ require_once CALISIA_SAVE_PRODUCT_IMPORT_MAPPING_ROOT . '/src/utils/translations
 require_once CALISIA_SAVE_PRODUCT_IMPORT_MAPPING_ROOT . '/src/mapper.php';
 require_once CALISIA_SAVE_PRODUCT_IMPORT_MAPPING_ROOT . '/src/mapping_ajax.php';
 
-add_action( 'woocommerce_csv_product_import_mapped_columns', 'calisia_save_product_import_mapping\mapper::render' );
+//add_action( 'woocommerce_csv_product_import_mapped_columns', 'calisia_save_product_import_mapping\mapper::render' );
+add_action( 'all_admin_notices', 'calisia_save_product_import_mapping\mapper::render' );
 
 //load css and js files in backend (admin)
 add_action('admin_enqueue_scripts', 'calisia_save_product_import_mapping\utils\loader::load_css', 20);

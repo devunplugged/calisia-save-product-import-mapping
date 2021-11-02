@@ -14,6 +14,8 @@ class cspim_buttons{
         const delete_button = document.getElementById('mapping-delete');
 
         if(save_button){
+            document.querySelector(".woocommerce-progress-form-wrapper").prepend(document.getElementById("calisia-import-mapper"));
+
             save_button.addEventListener(
                 'click', 
                 ()=>{
